@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(199, 168, 133);
+}
+#links{
+    display:inline;
+}
+#navbar #links a{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .70;
+    transition: 0.4s;
+}
+#navbar #links a:hover{opacity: 1;transition: 0.4s;}
+#yt{
+    background-color: rgb(148, 79, 39); color: rgb(0, 0, 0);
+}
+#fb{
+    background-color: rgb(160, 95, 58); color: rgb(0, 0, 0);
+}
+#dc{
+    background-color: rgb(196, 157, 98); color: rgb(0, 0, 0);
+}
+#rd{
+    background-color: rgb(211, 179, 137); color: rgb(0, 0, 0);
+}
+#x{
+    background-color: rgb(230, 200, 181); color: rgb(0, 0, 0);
+}
+.rounded{ border-radius: 7px;}
+.banner{
+    
+    background-image: url('kapi.jpg');
+    background-color: aquamarine;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;   
+}
+.banner h2{
+    font-family: 'Young Serif', serif;
+    color: #A27035;
+    text-shadow: 1px 1px white;
+    font-size: xx-large;
+}
+.banner h2 span{
+    color: #533E2D;
+}
+.banner p{
+    color: #DDCA7D;
+    margin-bottom: 20px;
+}
+.banner a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #948d81;
+    font-family: 'Young Serif' , serif;
+    text-transform: uppercase;
+}
